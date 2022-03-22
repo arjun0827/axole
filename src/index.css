@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link{
+  color: #AAAAAA !important;
+  font-weight: 500 !important;
+  font-size: 11px;
+}
+
+.navbar-nav .nav-link .active{
+  color: black !important;
+}
+ 
+.nav-item .active.nav-link{
+  color: black !important;
+}
+
+
+.navbar {
+  background-color: white !important;
+}
+
+.hero-wrap,
+.blog,
+.blog-detail-hero,
+.about-hero,
+.contact-hero {
+  background-color: #f1f1f1;
+  padding: 130px 0;
+}
+
+.contact {
+  background-color: #f8f8f8;
+}
+
+p {
+  color: rgb(140, 153, 153);
+}
+
+header {
+  position: absolute;
+  z-index: 2;
+  letter-spacing: 4px;
+}
+
+.blog img {
+  height: 92vh;
+  width: 100%;
+}
+
+.title {
+  top: 0;
+  left: 25%;
+}
+
+.sub-title {
+  font-size: 14vw;
+}
+
+.sub-title span {
+  color: #000;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+
+.hero-para {
+  font-weight: 200;
+  font-size: 30px;
+  color: rgb(164, 164, 164);
+  max-width: 573px;
+}
+
+.blog-heading {
+  font-size: 90px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.blog-heading:hover {
+  text-decoration-color: #f4bf2c;
+  transition: 0.3s all ease;
+}
+
+.blog-list li {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.blog-list li:hover {
+  background-color: black;
+  color: white;
+}
+
+.blog-list li.active {
+  background-color: black;
+  padding: 10px 18px;
+}
+
+.icons-color {
+  color: black;
+}
+
+.icons-color:hover {
+  color: white;
+}
+
+input {
+  max-width: 400px;
+  width: 100%;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: black;
+  font-size: 18px;
+}
+
+.social-icons span {
+  background-color: rgb(196, 196, 196);
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.social-icons span:hover {
+  background-color: black;
+}
+
+.explore-list li:hover,
+.recent-post-para:hover,
+.blog-detail-list li.active:hover,
+.about li.active:hover,
+.contact-list li.active:hover {
+  color: #f4bf2c;
+  cursor: pointer;
+}
+.explore-list li::before {
+  content: "\2192";
+  padding-left: 42px;
+  padding-right: 10px;
+}
+
+.recent-post-img {
+  width: 50px;
+  height: 50px;
+}
+
+.single-blog-detail main {
+  padding: 90px 540px;
+}
+
+.single-blog-detail img {
+  max-width: 100%;
+  height: 40vh;
+}
+
+.author-detail img {
+  width: 85px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.comment-section,
+.blog-detail {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.comment-section img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.blog-detail,
+.about {
+  background-color: rgb(248, 248, 248);
+}
+
+.about-content {
+  max-width: 736px;
+}
+
+.hobby {
+  background-color: white;
+  color: black;
+}
+
+.hobby:hover,
+.hobby img:hover {
+  color: white;
+  background-color: black;
+}
+
+.about-icons {
+  width: 100px;
+  height: 90px;
+}
+
+.contact-list li {
+  color: #f4bf2c;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.contact-list li:hover {
+  color: black;
+}
+
+.swiper-horizontal {
+  padding-bottom: 50px !important;
+}
+
+.swiper-slider {
+  background-color: #f8f8f8;
+  padding: 100px 0px;
+}
+
+.slide_container {
+  max-width: 540px;
+  background-color: white;
+}
+
+.slide_container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.slide_container span {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.swiper-slide.swiper-slide-next .slide_container {
+  background-color: black;
+  color: white;
+}
+
+.swiper-pagination-bullet {
+  width: 30px !important;
+  height: 2px !important;
+}
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #f4bf2c !important;
+}
+
+
+.about-inner-main img, .post-inner-main img{
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px){
+  .blog main{
+    max-width: 1300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: black !important;
+  }
+
+  .nav-text,
+  .nav-link {
+    color: white !important;
+  }
+
+  .navbar-toggler {
+    color: gray !important;
+  }
+
+
+  .title {
+    position: absolute;
+    left: 4%;
+    top: -20px;
+  }
+
+  .explore-list li::before {
+    padding-left: 0;
+  }
+
+  .blog-detail main {
+    padding: 0 50px;
+  }
+  
+  .about-content {
+    width: 100%;
+  }
+  .map-section {
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .about-inner-main {
+    display: none;
+  }
+}
