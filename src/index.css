@@ -152,7 +152,8 @@ input:focus {
 }
 
 .single-blog-detail main {
-  padding: 90px 540px;
+  margin: 0 auto;
+  max-width: 890px;
 }
 
 .single-blog-detail img {
@@ -268,6 +269,9 @@ input:focus {
   .blog main{
     max-width: 1300px;
   }
+  .blog-detail main{
+    max-width: 890px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -283,7 +287,9 @@ input:focus {
   .navbar-toggler {
     color: gray !important;
   }
-
+  .about-inner-main {
+    display: none;
+  }
 
   .title {
     position: absolute;
@@ -307,8 +313,3 @@ input:focus {
   }
 }
 
-@media screen and (max-width: 768px){
-  .about-inner-main {
-    display: none;
-  }
-}
